@@ -53,4 +53,4 @@ for resized in pyramid(image, scale=1.5):
 
         cv2.imshow('Window', cropped)
         cv2.waitKey(1)
-        time.sleep(0.025)
+        time.sleep(0.05)
