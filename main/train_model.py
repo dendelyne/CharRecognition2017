@@ -16,7 +16,6 @@ from sklearn.model_selection import train_test_split
 import scipy.misc
 
 ary = np.load("../data/characters.npz")['output'].reshape([-1, 127, 128]).astype(np.float32)
-imagelist = np.load("../data/characters.npz")['imageList']
 numberOfTypes = np.load("../data/characters.npz")['numberOfTypes']
 
 img_rows, img_cols = 32, 32
