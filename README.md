@@ -19,7 +19,7 @@ Achievenemts so far:
 Still to do:
 - Change the training set from ETL8 to ETL2, as it contains non-handwritten characters
 - Send segmentated characters to the model, return the prediction
-- Tune network to increase a higher accuracy
+- Tune network to achieve a higher accuracy
 - Convert PDFs to images for further processing
 
 Stay tuned for further information.
