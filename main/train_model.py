@@ -80,7 +80,7 @@ model.add(Activation('softmax'))
 model.summary()
 model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
 model.fit_generator(datagen.flow(X_train, Y_train, batch_size=32), samples_per_epoch=X_train.shape[0],
-                    nb_epoch=200, validation_data=(X_test, Y_test), verbose=2)
+                    nb_epoch=500, validation_data=(X_test, Y_test), verbose=2)
 
 
 model_json = model.to_json()
