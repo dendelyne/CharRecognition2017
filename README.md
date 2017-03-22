@@ -14,7 +14,7 @@ Achievenemts so far:
 - Train the model with a decent accuracy
 - Recognize character (images of single characters as an input required)
 - Implementation of a "Sliding-Window"
-- Segmentation of lines of text
+- Detection of characters (still not flawless, due to the structure of Japanese characters)
 
 Still to do:
 - Change the training set from ETL8 to ETL2, as it contains non-handwritten characters
