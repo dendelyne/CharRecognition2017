@@ -14,7 +14,7 @@ image_final = cv2.bitwise_and(img2gray , img2gray , mask = mask)
 ret, new_img = cv2.threshold(image_final, 180 , 255, cv2.THRESH_BINARY_INV)
     
 kernel = cv2.getStructuringElement(cv2.MORPH_CROSS,(2 , 2))
-dilated = cv2.dilate(new_img,kernel,iterations = 5)
+dilated = cv2.dilate(new_img,kernel,iterations = 0)
     
 _, contours, hierarchy = cv2.findContours(dilated,cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_NONE) 
     
